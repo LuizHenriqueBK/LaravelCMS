@@ -1,0 +1,43 @@
+{
+    "name": "LuizHenriqueBK/LaravelCMS",
+    "description": "Simple Bootstrap SB Admin Laravel CMS. ",
+    "keywords": ["laravel", "cms", "admin", "painel", "backend", "bootstrap", "sb admin", "LaravelCMS", "sb admin laravel", "php cms", "laravel 5", "laravel5", "laravel 6", "laravel6", "laravel 7", "laravel7"],
+    "authors": [
+        {
+            "name": "Luiz Henrique BK",
+            "email": "luizhenriquesf@objetus.com.br",
+            "homepage": "http://luizhenriquedigital.com.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5",
+        "doctrine/dbal": "^2.10",
+        "LuizHenriqueBK/LaravelRepository": "dev-master",
+        "illuminate/database": "^5.8.32|^6.0|^7.0",
+        "illuminate/support": "^5.8.32|^6.0|^7.0",
+        "laravelcollective/html": "^6.1",
+        "realrashid/sweet-alert": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LuizHenriqueBK\\LaravelCMS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LuizHenriqueBK\\LaravelCMS\\LaravelCmsServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:LuizHenriqueBK/LaravelRepository.git"
+        }
+    ]
+}

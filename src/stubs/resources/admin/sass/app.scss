@@ -1,0 +1,14 @@
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import '~startbootstrap-sb-admin-2/scss/sb-admin-2';
+@import '~animate.css/animate.compat.css';
+@import '~dropify/src/sass/dropify.scss';
+@import '~bootstrap-select/sass/bootstrap-select.scss';
+@import '~bootstrap4-toggle/css/bootstrap4-toggle.min.css';
+
+.dropify-wrapper .dropify-message span.file-icon{font-size: 25px; color: #AAA}
+.pagination{margin-bottom: 0}
+.sidebar.toggled .sidebar-title{font-size: 0.7em; text-align: center; padding-left: 0 !important}
+.title-module{position: absolute; font-size: 1.2em}
